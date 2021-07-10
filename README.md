@@ -3,6 +3,8 @@
 Repeat macro expression X times.  
 Works like foreach loop for macros.
 
+Inspired by: https://stackoverflow.com/questions/50957748/passing-a-dynamic-set-of-variadic-arguments-to-a-c-function
+
 Example:
 
 ```cpp
