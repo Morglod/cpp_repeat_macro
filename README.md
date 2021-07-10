@@ -47,3 +47,17 @@ line10
 
 sh generate.sh > repeat.h
 ```
+
+## REPEAT inside REPEAT
+
+You will get error if you will try to nest same REAPAT macro.
+
+You should generate multiple REAPEAT with different names:
+
+```
+REPEAT_X(Num, Expr)
+REPEAT_Y(Num, Expr)
+REPEAT_Z(Num, Expr)
+```
+
+Then you could easily nest it
